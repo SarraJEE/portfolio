@@ -8,21 +8,21 @@ const bio = [
   {
     id: 11,
     data: [
-      { id: 1, type: "First Name", value: "Steve" },
-      { id: 2, type: "Last Name", value: "Milner" },
-      { id: 3, type: "Age", value: "27 Years" },
-      { id: 4, type: "Nationality", value: "Tunisian" },
+      { id: 1, type: "First Name", value: "Sarra" },
+      { id: 2, type: "Last Name", value: "Makeri" },
+      { id: 3, type: "Age", value: "39 Years" },
+      { id: 4, type: "Nationality", value: "Algerienne" },
       { id: 5, type: "Freelance", value: "Available" },
     ],
   },
   {
     id: 12,
     data: [
-      { id: 6, type: "Address", value: "Tunis" },
-      { id: 7, type: "Phone", value: "+216 21 184 010" },
-      { id: 8, type: "Email", value: "demo@demo.com" },
-      { id: 9, type: "Skype", value: "steve.milner" },
-      { id: 10, type: "Langages", value: "French, English" },
+      { id: 6, type: "Address", value: "France" },
+      { id: 7, type: "Phone", value: "+33 75 040 47 69" },
+      { id: 8, type: "Email", value: "bgrsarra@gmail.com" },
+      { id: 9, type: "Skype", value: "sarra.makeri" },
+      { id: 10, type: "Langages", value: "Français, Anglais,Arabe" },
     ],
   },
 ];
@@ -31,19 +31,19 @@ const counters = [
   {
     id: 1,
     title: 'years of <span className="block">experience</span>',
-    value: "12",
+    value: "02",
   },
   {
     id: 2,
     title: 'completed <span className="block">projects</span>',
-    value: "97",
+    value: "14",
   },
   {
     id: 3,
     title: 'happy <span className="block">customers</span>',
-    value: "81",
+    value: "02",
   },
-  { id: 4, title: 'awards <span className="block">won</span>', value: "53" },
+  { id: 4, title: 'awards <span className="block">won</span>', value: "03" },
 ];
 
 const experiences = [
@@ -63,7 +63,7 @@ const experiences = [
   },
   {
     id: 3,
-    date: "2005 - 2013",
+    date: "2008 - 2013",
     title: "consultant",
     company: "Videohive",
     desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
@@ -73,24 +73,24 @@ const experiences = [
 const educations = [
   {
     id: 1,
-    date: "2015",
-    title: "Engineer Degree",
-    unv: "Oxford University",
+    date: "2012",
+    title: "master's degree in physical and theoretical chemistry",
+    unv: "Algiers University",
     desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
   },
   {
     id: 2,
-    date: "2012",
-    title: "Master Degree",
-    unv: "Kiev University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2008",
+    title: "advanced degree in chemistry",
+    unv: "Algiers University",
+    desc: "An advanced training in the fundamental principles and practical applications of chemistry. This program covers a wide range of subjects, including organic, inorganic, analytical, and physical chemistry, as well as specialized areas such as materials chemistry.,",
   },
   {
     id: 3,
-    date: "2009",
+    date: "2003",
     title: "Bachelor Degree",
-    unv: "Tunis High School",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    unv: "Algiers High School",
+    desc: "scientific secondary school diploma",
   },
 ];
 
@@ -98,8 +98,8 @@ const skills = [
   { id: 1, name: "html", value: "25" },
   { id: 2, name: "javascript", value: "89" },
   { id: 3, name: "css", value: "70" },
-  { id: 4, name: "php", value: "66" },
-  { id: 5, name: "wordpress", value: "95" },
+  { id: 4, name: "Java", value: "66" },
+  { id: 5, name: "React", value: "95" },
   { id: 6, name: "jquery", value: "50" },
   { id: 7, name: "angular", value: "65" },
   { id: 8, name: "react", value: "45" },
