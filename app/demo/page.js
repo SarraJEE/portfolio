@@ -5,7 +5,7 @@ const page = () => {
   return (
     <Fragment>
       <div className="header">
-        <h1>Tunis</h1>
+        <h1>Sarra</h1>
         <h2>Tailwind CSS Personal Portfolio React NextJS Template</h2>
       </div>
       <svg

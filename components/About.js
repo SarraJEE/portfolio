@@ -95,12 +95,12 @@ const educations = [
 ];
 
 const skills = [
-  { id: 1, name: "html", value: "25" },
-  { id: 2, name: "javascript", value: "89" },
-  { id: 3, name: "css", value: "70" },
-  { id: 4, name: "Java", value: "66" },
-  { id: 5, name: "React", value: "95" },
-  { id: 6, name: "jquery", value: "50" },
+  { id: 1, name: "html", value: "90" },
+  { id: 2, name: "javascript", value: "85" },
+  { id: 3, name: "css", value: "90" },
+  { id: 4, name: "Java", value: "60" },
+  { id: 5, name: "React", value: "80" },
+  { id: 6, name: "MongoDB", value: "50" },
   { id: 7, name: "angular", value: "65" },
   { id: 8, name: "react", value: "45" },
 ];
@@ -112,7 +112,7 @@ const About = () => {
       <div className="w-full">
         {/* Section Title Starts */}
         <SectionTitle
-          bigTitle={"resume"}
+         /* bigTitle={"resume"}*/
           colorTitle={"me"}
           normalTitle={"about"}
         />
@@ -126,7 +126,7 @@ const About = () => {
               </h3>
               <img
                 className="hidden xs:block rounded-full border-4 border-solid border-black-3 w-230 h-230 mb-25 mx-auto"
-                src="assets/img/dark-img-mobile.jpg"
+                src="assets/img/dark-img-mobile.webp"
                 alt=""
               />
               <div className="flex justify-between xs:justify-start font-Open-sans">

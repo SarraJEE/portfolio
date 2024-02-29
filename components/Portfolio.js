@@ -10,10 +10,10 @@ const items = [
     title: "Image Project",
     type: "img",
     src: "",
-    img: "assets/img/projects/project-1.jpg",
+    img: "assets/img/projects/project-1.webp",
     project: "Website",
     client: "Envato",
-    langages: "HTML, CSS, Javascript",
+    langages: "HTML, CSS",
     previewLink: "www.envato.com",
   },
   {
@@ -113,7 +113,7 @@ const Portfolio = () => {
       <div className="w-full pb-60">
         {/* Section Title Starts */}
         <SectionTitle
-          bigTitle={"works"}
+         // bigTitle={"works"}
           colorTitle={"portfolio"}
           normalTitle={"my"}
         />
