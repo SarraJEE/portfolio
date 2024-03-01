@@ -9,14 +9,15 @@ const Popup = () => {
         <div className="slideshow bg-black">
           <figure
             className={`popup_figure bg-${
-              dark ? "black-3" : "white"
+              dark ? "black" : "white"
             } p-30 overflow-auto rounded-10`}
           >
             {/* Project Details Starts */}
             <figcaption className="mb-15">
               <h3 className="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
-                {popup.title}
+                description
               </h3>
+              <p className=" pt-10 pb-28 font-bold ">{popup.description}  </p>
               <div className="flex flex-wrap font-Open-sans text-fs-15">
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-file-text-o pr-8" />
