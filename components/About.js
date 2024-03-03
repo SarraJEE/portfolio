@@ -95,14 +95,14 @@ const educations = [
 ];
 
 const skills = [
-  { id: 1, name: "html", value: "90" },
-  { id: 2, name: "javascript", value: "85" },
-  { id: 3, name: "css", value: "90" },
-  { id: 4, name: "Java", value: "60" },
-  { id: 5, name: "React", value: "80" },
-  { id: 6, name: "MongoDB", value: "50" },
-  { id: 7, name: "angular", value: "65" },
-  { id: 8, name: "react", value: "45" },
+  { id: 1, img: "/assets/img/technologyIcons/html-min.webp", value: "90" },
+  { id: 2, img: "/assets/img/technologyIcons/css-3-min.webp", value: "90" },
+  { id: 3, img: "/assets/img/technologyIcons/js-min.webp", value: "85" },
+  { id: 4, img: "/assets/img/technologyIcons/nodejs-min.webp", value: "60" },
+  { id: 5, img: "/assets/img/technologyIcons/react-min.webp", value: "80" },
+  { id: 6, img: "/assets/img/technologyIcons/redux-min.webp", value: "65" },
+  { id: 7, img: "/assets/img/technologyIcons/mongodb-min.webp", value: "50" },
+  { id: 8, img: "/assets/img/technologyIcons/seo-min.webp", value: "75" },
 ];
 
 const About = () => {
@@ -148,7 +148,7 @@ const About = () => {
               </div>
               <a
                 className="button group mt-30 overflow-hidden inline-block leading-lh-1.4 rounded-30 text-ellipsis text-center align-middle select-none transition-all duration-250 ease-in-out uppercase no-underline relative z-10 py-16 pr-70 pl-35 text-fs-15 font-semibold text-white bg-transparent outline-0 before:absolute before:-z-10 before:left-0 before:right-0 before:top-0 before:bottom-0 before:translate-x-full hover:before:translate-x-0 before:transition before:duration-300 before:ease-out"
-                href="#"
+                href="/assets/CV_Professionnel_Sarra_Makeri.pdf" download="CV_Professionnel_Sarra_Makeri"
               >
                 <span
                   className={`relative z-20 text-${
@@ -217,9 +217,9 @@ const About = () => {
                     <div className="fill" />
                   </div>
                 </div>
-                <h6 className="uppercase font-Open-sans text-center mt-24 xs:mt-8">
-                  {skill.name}
-                </h6>
+                
+                <img className="iconeSkills"src={skill.img} alt="Skill Image"/>
+                
               </div>
             ))}
           </div>

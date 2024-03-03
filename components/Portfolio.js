@@ -26,7 +26,7 @@ const items = [
     img: "assets/img/projects/project-2.webp",
     project: "Website",
     client: "Envato",
-    langages: "HTML, CSS",
+    langages: "HTML, Sass",
     previewLink: "https://sarrajee.github.io/P4_Ohmyfood/index.html",
     description:"OhMyFood est un site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques.Mon rôle en tant qu'intégratrice web était de transformer les maquettes fournies par l'équipe de conception en un site web fonctionnel et responsive.",
   },
@@ -39,7 +39,7 @@ const items = [
     project: "Website",
     client: "Envato",
     langages: "HTML, CSS, Javascript",
-    previewLink: "www.envato.com",
+    previewLink: "https://github.com/SarraJEE/P6_Portfolio_architecte_sophie_bluel",
     description:
       "En tant qu'intégratrice web, j'ai travaillé sur le développement du site portfolio d'une architecte d'intérieur.Ma mission a consisté à concevoir la partie front-end du site. Grâce à mes compétences en JavaScript, j'ai réussi à récupérer les travaux de l'architecte depuis l'API et les ai intégrés dans une galerie dynamique.",
   },
@@ -51,10 +51,10 @@ const items = [
     img: "assets/img/projects/project-4.png",
     project: "Site Web",
     client: "Envato",
-    langages:"HTML, CSS, Reactt",
-    previewLink: "www.envato.com",
+    langages:"HTML,Sass, React",
+    previewLink: "https://github.com/SarraJEE/P8_kasa",
     description:
-      "L'entreprise Booki souhaite développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML, CSS et React.",
+      "Je suis recruté par Kasa, leader de la location d'appartements entre particuliers, en tant que freelance pour développer sa nouvelle platforme web. Le site a été codé il y a plus de 10 ans en ASP.NET et j'ai été chargé de recoder le site en React.",
   },
 
   {
@@ -66,9 +66,9 @@ const items = [
     project: "Website",
     client: "Envato",
     langages: "HTML, CSS, Javascript",
-    previewLink: "www.envato.com",
+    previewLink: "https://sarrajee.github.io/P9_ninacarducci/",
     description:
-      "L'entreprise Booki souhaite développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+      "Nina Carducci possède un portfolio comprenant beaucoup d'images. Son site n'est pas bien optimisé et quelques bugs sont présents. Après audit, je lui propose d'optimiser les images, le code et sa structure de son site et de corriger les bugs.",
   },
   {
     id: 6,
@@ -79,9 +79,9 @@ const items = [
     project: "Website",
     client: "Envato",
     langages: "React,Redux,Sass,MongoDB",
-    previewLink: "www.envato.com",
+    previewLinkl: "https://github.com/SarraJEE/Projet11_ArgentBank",
     description:
-      "L'entreprise Booki souhaite développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+      "Argent Bank est une nouvelle banque en ligne qui souhaite offrir à ses utilisateurs un tableau de bord convivial. Dans le but d'atteindre cet objectif, j'ai développé une application web complète, réactive et adaptée à tous les appareils en utilisant des technologies telles que React Redux",
   },
 ];
 
