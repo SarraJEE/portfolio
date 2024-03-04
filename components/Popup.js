@@ -17,7 +17,7 @@ const Popup = () => {
               <h3 className="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">
                 description
               </h3>
-              <p className=" pt-10 pb-28 font-bold ">{popup.description}  </p>
+              <p className=" pt-10 pb-28 font-bold ">{popup.description} </p>
               <div className="flex flex-wrap font-Open-sans text-fs-15">
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-file-text-o pr-8" />
@@ -32,7 +32,11 @@ const Popup = () => {
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-code pr-8" />
                   <span className="project-label">Langages </span>:{" "}
-                  <span className="font-semibold">{popup.langages}</span>
+                  <div className="project-langage">
+                    <img className="font-semibold" src={popup.img2} />
+                    <img src={popup.img3} />
+                    <img src={popup.img4} />
+                  </div>
                 </div>
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-external-link pr-8" />

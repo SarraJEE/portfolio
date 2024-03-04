@@ -36,37 +36,39 @@ const counters = [
   {
     id: 2,
     title: 'completed <span className="block">projects</span>',
-    value: "14",
+    value: "13",
   },
-  {
-    id: 3,
-    title: 'happy <span className="block">customers</span>',
-    value: "02",
-  },
-  { id: 4, title: 'awards <span className="block">won</span>', value: "03" },
+ 
 ];
 
 const experiences = [
   {
     id: 1,
-    date: "2018 - Present",
-    title: "web developer",
-    company: "envato",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2023 - Present",
+    title: "Intégrateur web",
+    company: "OpenClassrooms",
+    desc: "Titre RNCP niveau 5",
   },
   {
     id: 2,
-    date: "2013 - 2018",
-    title: "UI/UX Designer",
-    company: "Themeforest",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    date: "2022 - 2023",
+    title: "Passeport Numériquer",
+    company: "OpenClassrooms",
+    
   },
   {
     id: 3,
+    date: "2021 - 2022",
+    title: "Formation JAVA",
+    company: "AFPA Roubaix",
+    
+  },
+  {
+    id: 4,
     date: "2008 - 2013",
-    title: "consultant",
-    company: "Videohive",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    title: "Enseignante ",
+    company: "Collège ",
+    desc: "Enseignante Physique Chimie",
   },
 ];
 
@@ -76,19 +78,19 @@ const educations = [
     date: "2012",
     title: "master's degree in physical and theoretical chemistry",
     unv: "Algiers University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
   },
   {
     id: 2,
     date: "2008",
     title: "advanced degree in chemistry",
     unv: "Algiers University",
-    desc: "An advanced training in the fundamental principles and practical applications of chemistry. This program covers a wide range of subjects, including organic, inorganic, analytical, and physical chemistry, as well as specialized areas such as materials chemistry.,",
+    desc: "An advanced training in the fundamental principles and practical applications of chemistry. This program covers a wide range of subjects, including organic, inorganic, analytical, and physical chemistry, as well as specialized areas such as materials chemistry.",
   },
   {
     id: 3,
     date: "2003",
-    title: "Bachelor Degree",
+    title: "Bac",
     unv: "Algiers High School",
     desc: "scientific secondary school diploma",
   },
