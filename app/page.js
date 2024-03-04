@@ -1,14 +1,13 @@
 import About from "@/components/About";
-//import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Home from "@/components/Home";
 import Portfolio from "@/components/Portfolio";
 import Revealer from "@/layouts/Revealer";
-import TunisLayout from "@/layouts/TunisLayout";
+import PortfolioLayout from "@/layouts/PortfolioLayout";
 
 const Page = () => {
   return (
-    <TunisLayout>
+    <PortfolioLayout>
       {/* Main Content Starts */}
       <div className="w-full h-full pages overflow-hidden">
         {/* Home Starts */}
@@ -27,7 +26,7 @@ const Page = () => {
         
       </div>
       <Revealer />
-    </TunisLayout>
+    </PortfolioLayout>
   );
 };
 export default Page;

@@ -1,5 +1,5 @@
 "use client";
-import { TunisContext } from "@/context/context";
+import { PortfolioContext } from "@/context/context";
 import SectionContainer from "@/layouts/SectionContainer";
 import { useContext } from "react";
 import SectionTitle from "./SectionTitle";
@@ -108,7 +108,7 @@ const skills = [
 ];
 
 const About = () => {
-  const { dark } = useContext(TunisContext);
+  const { dark } = useContext(PortfolioContext);
   return (
     <SectionContainer id="about">
       <div className="w-full">

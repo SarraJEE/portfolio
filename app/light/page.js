@@ -6,7 +6,7 @@ import Home from "@/components/Home";
 import Portfolio from "@/components/Portfolio";
 import { TunisContext } from "@/context/context";
 import Revealer from "@/layouts/Revealer";
-import TunisLayout from "@/layouts/TunisLayout";
+import PortfolioLayout from "@/layouts/PortfolioLayout";
 import { useContext, useEffect } from "react";
 
 const Page = () => {
@@ -17,7 +17,7 @@ const Page = () => {
   }, []);
 
   return (
-    <TunisLayout>
+    <PortfolioLayout>
       {/* Main Content Starts */}
       <div className="w-full h-full pages overflow-hidden">
         {/* Home Starts */}
@@ -36,7 +36,7 @@ const Page = () => {
       
       </div>
       <Revealer />
-    </TunisLayout>
+    </PortfolioLayout>
   );
 };
 export default Page;

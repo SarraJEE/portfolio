@@ -1,5 +1,5 @@
 "use client";
-import { TunisContext } from "@/context/context";
+import { PortfolioContext } from "@/context/context";
 import { useContext, useState } from "react";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
     { id: 4, title: "Contact", href: "contact", icon: "fa fa-envelope-open" },
    
   ];
-  const { nav, changeNav, dark } = useContext(TunisContext);
+  const { nav, changeNav, dark } = useContext(PortfolioContext);
 
   const [toggle, setToggle] = useState(false);
 

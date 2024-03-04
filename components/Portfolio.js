@@ -1,5 +1,5 @@
 "use client";
-import { TunisContext } from "@/context/context";
+import { PortfolioContext } from "@/context/context";
 import SectionContainer from "@/layouts/SectionContainer";
 import { useContext } from "react";
 import SectionTitle from "./SectionTitle";
@@ -96,7 +96,7 @@ const items = [
 ];
 
 const Portfolio = () => {
-  const { popupToggle } = useContext(TunisContext);
+  const { popupToggle } = useContext(PortfolioContext);
   return (
     <SectionContainer id="portfolio">
       <div className="w-full pb-60">

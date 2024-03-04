@@ -1,5 +1,5 @@
 "use client";
-import { TunisContext } from "@/context/context";
+import { PortfolioContext } from "@/context/context";
 import SectionContainer from "@/layouts/SectionContainer";
 import emailjs from "emailjs-com";
 import { useContext, useState } from "react";
@@ -13,7 +13,7 @@ const socials = [
 ];
 
 const Contact = () => {
-  const { dark } = useContext(TunisContext);
+  const { dark } = useContext(PortfolioContext);
 
   const [mailData, setMailData] = useState({
     name: "",

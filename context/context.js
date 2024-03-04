@@ -3,7 +3,7 @@
 import { createContext, useCallback, useReducer } from "react";
 
 // Create Context
-const TunisContext = createContext();
+const PortfolioContext = createContext();
 
 // Type
 const type = {
@@ -166,7 +166,7 @@ const TunisState = ({ children }) => {
 
   const { nav, toggle, color, direction, popup, blogs, dark } = state;
   return (
-    <TunisContext.Provider
+    <PortfolioContext.Provider
       value={{
         nav,
         changeNav,
@@ -183,9 +183,9 @@ const TunisState = ({ children }) => {
       }}
     >
       {children}
-    </TunisContext.Provider>
+    </PortfolioContext.Provider>
   );
 };
 
 export default TunisState;
-export { TunisContext };
+export { PortfolioContext };

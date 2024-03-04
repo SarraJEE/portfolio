@@ -2081,9 +2081,9 @@ video {
   vertical-align: middle;
 }
 
-.font-Open-sans {
+/*.font-Open-sans {
   font-family: var(--font-open_sans);
-}
+}*/
 
 .font-Poppins {
   font-family: var(--font-poppins);
@@ -2166,7 +2166,7 @@ video {
 }
 
 .text-fs-26 {
-  font-size: 26px;
+  font-size: 41px;
 }
 
 .text-fs-33 {
@@ -2190,11 +2190,11 @@ video {
 }
 
 .text-fs-56 {
-  font-size: 56px;
+  font-size: 46px;
 }
 
 .font-black {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .font-bold {
@@ -2628,7 +2628,7 @@ video {
 
 .before\:w-40::before {
   content: var(--tw-content);
-  width: 40px;
+  
 }
 
 .before\:-translate-y-1\/2::before {

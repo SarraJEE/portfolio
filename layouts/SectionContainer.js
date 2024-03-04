@@ -1,9 +1,9 @@
 "use client";
-import { TunisContext } from "@/context/context";
+import { PortfolioContext } from "@/context/context";
 import { useContext, useEffect, useState } from "react";
 
 const SectionContainer = ({ children, id }) => {
-  const { nav, direction } = useContext(TunisContext);
+  const { nav, direction } = useContext(PortfolioContext);
   const [navClass, setNavClass] = useState(`page--animate-${direction}`);
 
   useEffect(() => {
