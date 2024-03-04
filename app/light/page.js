@@ -4,13 +4,13 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Home from "@/components/Home";
 import Portfolio from "@/components/Portfolio";
-import { TunisContext } from "@/context/context";
+import { PortfolioContext } from "@/context/context";
 import Revealer from "@/layouts/Revealer";
 import PortfolioLayout from "@/layouts/PortfolioLayout";
 import { useContext, useEffect } from "react";
 
 const Page = () => {
-  const { darkToggle, changeColor } = useContext(TunisContext);
+  const { darkToggle, changeColor } = useContext(PortfolioContext);
   useEffect(() => {
     darkToggle();
     changeColor("green");
