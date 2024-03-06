@@ -1,6 +1,6 @@
 import { PortfolioContext } from "@/context/context";
 import { useContext } from "react";
-
+import Slideshow from "../layouts/SlideShow";
 const Popup = () => {
   const { popup, popupToggle, dark } = useContext(PortfolioContext);
   return (
@@ -73,11 +73,8 @@ const Popup = () => {
                 />
               </div>
             ) : (
-              <img
-                className="block w-full rounded-5"
-                src={popup.img}
-                alt="Portolio Image"
-              />
+              // Utilisez le composant Slideshow pour afficher les images du projet
+              <Slideshow slides={popup.slides} />
             )}
 
             {/* Main Project Content Ends */}

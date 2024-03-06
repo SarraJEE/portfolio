@@ -6,8 +6,9 @@ const Header = () => {
   const menus = [
     { id: 1, title: "Home", href: "home", icon: "fa fa-home" },
     { id: 2, title: "About", href: "about", icon: "fa fa-user" },
-    { id: 3, title: "Portfolio", href: "portfolio", icon: "fa fa-briefcase" },
-    { id: 4, title: "Contact", href: "contact", icon: "fa fa-envelope-open" },
+    { id: 3, title: "Skills", href: "skills", icon: "fa fa-tasks" },
+    { id: 4, title: "Portfolio", href: "portfolio", icon: "fa fa-briefcase" },
+    { id: 5, title: "Contact", href: "contact", icon: "fa fa-envelope-open" },
    
   ];
   const { nav, changeNav, dark } = useContext(PortfolioContext);

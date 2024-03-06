@@ -4,6 +4,7 @@ import Home from "@/components/Home";
 import Portfolio from "@/components/Portfolio";
 import Revealer from "@/layouts/Revealer";
 import PortfolioLayout from "@/layouts/PortfolioLayout";
+import Skills from "@/components/Skills";
 
 const Page = () => {
   return (
@@ -16,6 +17,9 @@ const Page = () => {
         {/* About Starts */}
         <About />
         {/* About Ends */}
+         {/* Skills Starts */}
+         <Skills />
+        {/* Skills Ends */}
         {/* Portfolio Starts */}
         <Portfolio />
         {/* Portfolio Ends */}

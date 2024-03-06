@@ -20,7 +20,7 @@ const Contact = () => {
     email: "",
     subject: "",
     message: "",
-    template: "tunis tailwind react",
+    template: "portfolio tailwind react",
   });
   const { name, email, subject, message, template } = mailData;
   const [error, setError] = useState(null);
@@ -54,7 +54,7 @@ const Contact = () => {
               message: "",
               phone: "",
               subject: "",
-              template: "tunis tailwind react",
+              template: "portfolio tailwind react",
             });
           },
           (err) => {

@@ -76,23 +76,23 @@ const educations = [
   {
     id: 1,
     date: "2012",
-    title: "master's degree in physical and theoretical chemistry",
-    unv: "Algiers University",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit",
+    title: "MASTER EN CHIMIE PHYSIQUE ET THÉORIQUE",
+    unv: "université des sciences et technologies  D'ALGER",
+    desc: "Une discipline qui explore les interactions et les transformations de la matière à l'échelle atomique et moléculaire.",
   },
   {
     id: 2,
     date: "2008",
-    title: "advanced degree in chemistry",
-    unv: "Algiers University",
-    desc: "An advanced training in the fundamental principles and practical applications of chemistry. This program covers a wide range of subjects, including organic, inorganic, analytical, and physical chemistry, as well as specialized areas such as materials chemistry.",
+    title: "DIPLÔME D'ÉTUDES SUPÉRIEURES EN CHIMIE",
+    unv: "université des sciences et technologies  D'ALGER",
+    desc: "Une formation avancée aux principes fondamentaux et aux applications pratiques de la chimie. Ce programme couvre un large éventail de sujets, notamment la chimie organique, inorganique, analytique et physique, ainsi que des domaines spécialisés tels que la chimie des matériaux.",
   },
   {
     id: 3,
     date: "2003",
     title: "Bac",
-    unv: "Algiers High School",
-    desc: "scientific secondary school diploma",
+    unv: "LYCÉE D'ALGER",
+    desc: "diplôme d'études secondaires scientifiques",
   },
 ];
 
@@ -105,6 +105,9 @@ const skills = [
   { id: 6, img: "/assets/img/technologyIcons/redux-min.webp", value: "65" },
   { id: 7, img: "/assets/img/technologyIcons/mongodb-min.webp", value: "50" },
   { id: 8, img: "/assets/img/technologyIcons/seo-min.webp", value: "75" },
+  { id: 9, img: "/assets/img/technologyIcons/bootstrap-min.webp", value: "75" },
+  { id: 10, img: "/assets/img/technologyIcons/sass-min.webp", value: "75" },
+  {id:11, img: "/assets/img/technologyIcons/figma-min.webp", value: "75" },
 ];
 
 const About = () => {
@@ -191,15 +194,8 @@ const About = () => {
             </div>
             {/* Facts Ends */}
           </div>
-          <hr
-            className={`border-t border-solid border-t-${
-              dark ? "black-3" : "grey"
-            } mx-auto max-w-40prcent mt-70 mb-55`}
-          />
-          <h3 className="uppercase text-fs-26 xs:text-fs-21 pb-48 text-white font-semibold text-center">
-            my skills
-          </h3>
-          {/* Skills Starts */}
+          
+          {/* Skills Starts }
           <div className="flex w-full flex-wrap">
             {skills.map((skill) => (
               <div
