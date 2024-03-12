@@ -29,7 +29,7 @@ const Home = ({ authorImage }) => {
               </span>
             </h1>
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
-            Bonjour, moi c'est Sarra MAKERI intégrateur web junior ! Passionnée par les nouvelles technologies, j'ai découvert le code il y a quelques temps et ai tout de suite accroché. J'ai donc décidé de me reconvertir en tant que intégrateur web en passant une formation diplomante auprès d'OpenClassrooms.
+            Bonjour, moi c'est Sarra MAKERI intégrateur web junior ! Passionnée par les nouvelles technologies, j'ai découvert le code il y a quelques temps et  j'ai tout de suite accroché. J'ai donc décidé de me reconvertir en tant que intégrateur web en passant une formation diplomante auprès d'OpenClassrooms.
             Je suis toujours enthousiaste à l'idée d'apprendre et de découvrir de nouvelles opportunités dans le domaine du développement web.
             </p>
             <div
