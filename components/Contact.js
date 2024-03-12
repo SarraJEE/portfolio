@@ -72,16 +72,12 @@ const Contact = () => {
   return (
     <SectionContainer id="contact">
       <div className="w-full">
-        {/* Section Title Starts */}
         <SectionTitle
-         // bigTitle={"contact"}
           colorTitle={"touch"}
           normalTitle={"get in"}
         />
-        {/* Section Title Ends */}
         <div className="xl:max-w-1140 custom-md-3:max-w-[calc(100%-195px)] lg:max-w-960 md:max-w-720 sm:max-w-540 xs:max-w-full mx-auto">
           <div className="flex down-lg:flex-col">
-            {/* Contact Details Starts */}
             <div className="w-1/3 down-lg:w-full px-16 xs:px-0">
               <h3 className="text-fs-26 xs:text-fs-21 mb-16 font-semibold uppercase">
                 don't be shy !
@@ -109,7 +105,7 @@ const Contact = () => {
                 {socials.map((social) => (
                   <li key={social.id} className="inline-block">
                     <a
-                      href="#"
+                      href={social.link} // Corriger les liens vides en utilisant social.link
                       className={`social-item inline-block h-40 w-40 leading-lh-42 text-center text-${
                         dark ? "white" : "black-6"
                       } transition duration-300 text-fs-17 mx-6 bg-${
@@ -122,8 +118,6 @@ const Contact = () => {
                 ))}
               </ul>
             </div>
-            {/* Contact Details Ends */}
-            {/* Contact Form Starts */}
             <div className="w-2/3 down-lg:w-full px-16 down-lg:px-0">
               <form
                 id="contactform"
@@ -132,6 +126,7 @@ const Contact = () => {
               >
                 <div className="flex flex-wrap font-normal">
                   <div className="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
+                    <label htmlFor="name">Your Name</label>
                     <input
                       autoComplete="off"
                       className={`w-full ${
@@ -143,12 +138,14 @@ const Contact = () => {
                       } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       type="text"
                       name="name"
+                      id="name"
                       onChange={(e) => onChange(e)}
                       value={name}
                       placeholder="YOUR NAME"
                     />
                   </div>
                   <div className="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
+                    <label htmlFor="email">Your Email</label>
                     <input
                       autoComplete="off"
                       className={`w-full ${
@@ -160,12 +157,14 @@ const Contact = () => {
                       } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       type="email"
                       name="email"
+                      id="email"
                       onChange={(e) => onChange(e)}
                       value={email}
                       placeholder="YOUR EMAIL"
                     />
                   </div>
                   <div className="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
+                    <label htmlFor="subject">Your Subject</label>
                     <input
                       autoComplete="off"
                       className={`w-full ${
@@ -177,12 +176,14 @@ const Contact = () => {
                       } py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       type="text"
                       name="subject"
+                      id="subject"
                       onChange={(e) => onChange(e)}
                       value={subject}
                       placeholder="YOUR SUBJECT"
                     />
                   </div>
                   <div className="w-full px-16 xs:px-0">
+                    <label htmlFor="message">Your Message</label>
                     <textarea
                       className={`w-full ${
                         dark ? "bg-black-3" : ""
@@ -194,6 +195,7 @@ const Contact = () => {
                       placeholder="YOUR MESSAGE"
                       defaultValue={""}
                       name="message"
+                      id="message"
                       onChange={(e) => onChange(e)}
                       value={message}
                     />
@@ -228,7 +230,6 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            {/* Contact Form Ends */}
           </div>
         </div>
       </div>
