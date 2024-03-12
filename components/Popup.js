@@ -36,6 +36,7 @@ const Popup = () => {
                     <img className="font-semibold" src={popup.img2} />
                     <img src={popup.img3} />
                     <img src={popup.img4} />
+                    <img src={popup.img5} />
                   </div>
                 </div>
                 <div className="w-1/2 xs:w-full mb-8">

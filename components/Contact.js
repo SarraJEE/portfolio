@@ -42,7 +42,7 @@ const Contact = () => {
           "service_gsps4gw", // service id
           "template_evezi69", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "heW3te5TVqtEl-WfO" // public api
         )
         .then(
           (response) => {
