@@ -40,15 +40,14 @@ const Popup = () => {
                   </div>
                 </div>
                 <div className="w-1/2 xs:w-full mb-8">
-                  <i className="fa fa-external-link pr-8" />
-                  <span className="project-label">Preview </span>:{" "}
                   <span className="font-semibold">
                     <a
                       className="underline text-accent"
                       href={popup.previewLink}
                       target="_blank"
                     >
-                      {popup.previewLink}
+                      <i className="fa fa-external-link pr-8" />
+                      <span className="project-label">Preview </span>
                     </a>
                   </span>
                 </div>

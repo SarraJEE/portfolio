@@ -61,7 +61,6 @@ const items = [
     client: "Qwenta",
     img2:"/assets/img/technologyIcons/Notion-min.webp",
     img3:"/assets/img/technologyIcons/swagger.webp",
-    previewLink: "",
     description:
       "Notre client Qwenta souhaite faire développer un 'Menu Maker', site permettant aux restaurateurs d'afficher et de mettre en page leurs menus facilement. J'ai été chargé de préparer et planifier le projet.",
   },
