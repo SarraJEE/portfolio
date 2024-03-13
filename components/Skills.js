@@ -17,6 +17,8 @@ const skills = [
   { id: 10, img: "/assets/img/technologyIcons/mongodb-min.webp", value: "50" },
   { id: 11, img: "/assets/img/technologyIcons/seo-min.webp", value: "80" },
   { id: 12, img: "/assets/img/technologyIcons/figma-min.webp", value: "80" },
+  { id: 13, img: "/assets/img/technologyIcons/git-min.webp", value: "80" },
+  { id: 14, img: "/assets/img/technologyIcons/swagger.webp", value: "65" },
 ];
 
 const Skills = () => {
