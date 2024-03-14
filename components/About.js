@@ -10,9 +10,8 @@ const bio = [
     data: [
       { id: 1, type: "First Name", value: "Sarra" },
       { id: 2, type: "Last Name", value: "Makeri" },
-      { id: 3, type: "Age", value: "39 Years" },
-      { id: 4, type: "Nationality", value: "Algerienne" },
-      { id: 5, type: "Freelance", value: "Available" },
+      { id: 3, type: "Langages", value: "Français, Anglais,Arabe" },
+      { id: 4, type: "Freelance", value: "Available" },
     ],
   },
   {
@@ -22,7 +21,7 @@ const bio = [
       { id: 7, type: "Phone", value: "+33 75 040 47 69" },
       { id: 8, type: "Email", value: "bgrsarra@gmail.com" },
       { id: 9, type: "Skype", value: "sarra.makeri" },
-      { id: 10, type: "Langages", value: "Français, Anglais,Arabe" },
+      
     ],
   },
 ];
