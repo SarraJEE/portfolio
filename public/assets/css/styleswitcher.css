@@ -133,8 +133,6 @@
   font-size: 13px;
   line-height: 13px;
   outline: none;
-
-  -webkit-appearance: none;
   cursor: pointer;
 }
 #switcher p.separator {
