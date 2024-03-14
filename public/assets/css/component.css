@@ -126,11 +126,12 @@ body {
 	height: 50px;
 
 }
+
 @media (max-width: 1024px) {
 	.iconeSkills {
 		margin-left: 76px;
 
-	
+
 	}
 }
 
@@ -139,17 +140,19 @@ body {
 		margin-left: 78px;
 		width: 30px;
 		height: 30px;
-	
+
 	}
 }
+
 @media (max-width: 577px) {
 	.iconeSkills {
 		margin-left: 82px;
 		width: 30px;
 		height: 30px;
-	
+
 	}
 }
+
 /* Embedded Videos */
 
 .portfolio .slideshow .videocontainer,
@@ -1121,37 +1124,23 @@ body {
 	height: 415px;
 	margin-bottom: 30px;
 
-	@media screen and (max-width: 768px) {
-		height: 255px;
-	}
+
 }
 
 .slider {
 
 	& img {
 		width: 100%;
-		height: 100%;
-		object-fit: scale-down;
+		height: 350PX;
+		object-fit: inherit;
 		position: absolute;
 		border-radius: 25px;
 
 	}
 
-	&__number {
-		position: absolute;
-		bottom: 24px;
-		right: 50%;
-		color: #fff;
-		font-size: 18px;
-		font-weight: 500;
-
-		@media screen and (max-width: 768px) {
-			display: none;
-
-		}
-	}
 
 }
+
 
 .right-Arrow {
 	background-image: url("../img/carrousel/arrowRight.webp");
@@ -1163,12 +1152,6 @@ body {
 	height: 79px;
 	cursor: pointer;
 
-	@media screen and (max-width: 768px) {
-		background-image: url("../img/carrousel/arrowRight.webp");
-		top: 50%;
-		right: -3%;
-
-	}
 
 }
 
@@ -1182,10 +1165,22 @@ body {
 	z-index: 10;
 	cursor: pointer;
 
-	@media screen and (max-width: 768px) {
-		background-image: url("../img/carrousel/arrowLeft.webp");
-		top: 50%;
-		left: 2%
+}
+
+@media (max-width: 768px) {
+	.slide {
+		height: 255px;
 	}
 
+	.right-arrow {
+		top: 50%;
+		right: -3%;
+		background-image: url("../img/carrousel/arrowRight.webp");
+	}
+
+	.left-arrow {
+		top: 50%;
+		left: 2%;
+		background-image: url("../img/carrousel/arrowLeft.webp");
+	}
 }
