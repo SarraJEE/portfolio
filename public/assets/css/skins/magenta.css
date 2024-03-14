@@ -5,7 +5,7 @@
 .text-accent-hover:hover,
 #menuToggle .active,
 #menu li.active a {
-  color: #ee6192;
+  color: #b31166;
 }
 .bg-accent,
 .bg-accent-hover:hover,
@@ -16,19 +16,19 @@ h1:before,
 .header ul.icon-menu li.desktop-nav-element:hover,
 .header .desktop-nav-element h2,
 .button:before {
-  background-color: #ee6192;
+  background-color: #b31166;
 }
 .revealer__layer:nth-child(2) {
-  background: #ee6192 !important;
+  background: #b31166 !important;
 }
 #contact input[type="text"]:focus,
 #contact input[type="email"]:focus,
 #contact textarea:focus,
 .button {
-  border: 1px solid #ee6192;
+  border: 1px solid #b31166;
 }
 .post-thumb {
-  border-bottom: 5px solid #ee6192;
+  border-bottom: 5px solid #b31166;
 }
 .pie,
 .c100 .bar,
@@ -82,15 +82,15 @@ h1:before,
 .c100.p98 .fill,
 .c100.p99 .fill,
 .c100.p100 .fill {
-  border: 0.08em solid #ee6192;
+  border: 0.08em solid #b31166;
 }
 
 .cursor-inner {
-  background-color: #ee6192;
+  background-color: #b31166;
 }
 .cursor-inner.cursor-hover {
-  background-color: #ee6192;
+  background-color: #b31166;
 }
 .cursor-outer {
-  border: 2px solid #ee6192;
+  border: 2px solid #b31166;
 }
