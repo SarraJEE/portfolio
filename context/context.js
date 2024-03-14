@@ -20,7 +20,7 @@ const { NAV, TOGGLE, COLOR, POPUP, DIRECTION, DARK } = type;
 const initialState = {
   nav: "home",
   toggle: false,
-  color: "orange",
+  color: "magenta",
   direction: "top",
   popup: null,
   dark: true,
