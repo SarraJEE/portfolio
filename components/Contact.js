@@ -6,10 +6,10 @@ import { useContext, useState } from "react";
 import SectionTitle from "./SectionTitle";
 
 const socials = [
-  { id: 1, icon: "fa fa-facebook", link: "#" },
-  { id: 2, icon: "fa fa-twitter", link: "#" },
-  { id: 3, icon: "fa fa-youtube", link: "#" },
-  { id: 4, icon: "fa fa-dribbble", link: "#" },
+  { id: 1, icon: "fa fa-linkedin", link: "https://www.linkedin.com/in/sarra-makeri-535b8b13a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+  { id: 2, icon: "fa fa-twitter",  },
+  { id: 3, icon: "fa fa-youtube",  },
+  { id: 4, icon: "fa fa-dribbble",  },
 ];
 
 const Contact = () => {
@@ -193,7 +193,6 @@ const Contact = () => {
                         dark ? "black" : "grey"
                       } h-160 py-11 px-26 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form`}
                       placeholder="YOUR MESSAGE"
-                      defaultValue={""}
                       name="message"
                       id="message"
                       onChange={(e) => onChange(e)}

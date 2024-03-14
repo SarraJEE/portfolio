@@ -55,7 +55,7 @@ const Switcher = () => {
             {colors.map((color) => (
               <li key={color.id}>
                 <a
-                  href="#"
+                  
                   title={color.name}
                   className="color"
                   onClick={() => changeColor(color.name)}
