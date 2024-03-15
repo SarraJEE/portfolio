@@ -229,6 +229,7 @@ module.exports = {
       'custom-md-3': {'min': '992px', 'max': '1350px'},
       'xs': {'max': '576px'},
     }
+    
   },
   plugins: [],
 };

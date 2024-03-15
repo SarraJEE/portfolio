@@ -21,6 +21,7 @@ const skills = [
   { id: 14, img: "/assets/img/technologyIcons/swagger.webp", },
 ];
 
+
 const Skills = () => {
   const { dark } = useContext(PortfolioContext);
   return (
@@ -32,6 +33,7 @@ const Skills = () => {
           colorTitle={"skills"}
           normalTitle={"my"}
         />
+        
         <div className="xl:max-w-1140 custom-md-3:max-w-[calc(100%-195px)] lg:max-w-960 md:max-w-720 sm:max-w-540 xs:max-w-full mx-auto">
           {/* Skills Starts */}
           <div className="flex w-full flex-wrap">
